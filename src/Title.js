@@ -17,7 +17,6 @@ const Title = (props) => {
       <div className="card-title-top">
         <input type="text" placeholder="Enter value" onChange={handleChange} />
       </div>
-      <p>{title}</p>
     </div>
   );
 };
